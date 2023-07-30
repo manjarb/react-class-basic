@@ -11,9 +11,9 @@ export function List() {
 
   return (
     <ul>
-      {people.map((p) => (
-        <ListItem person={p} />
-      ))}
+      {people.map((p) => {
+        return <ListItem person={p} />;
+      })}
     </ul>
   );
 }

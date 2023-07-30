@@ -19,9 +19,21 @@ export function Input() {
   //   document.getElementsByClassName('first-name')[0].textContent = e.target.value;
   // }
 
+  // const onInputChange = (event, key) => {
+  //   switch (key) {
+  //     case 'input1':
+  //       setInput1(event.target.value)
+  //       break;
+    
+  //     default:
+  //       break;
+  //   }
+  // }
+
   return (
     <>
       <h2>Let’s check you in</h2>
+
       <label>
         First name: <input value={firstName} onChange={handleFirstNameChange}/>
       </label>

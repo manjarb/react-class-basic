@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  max-width: 1040px;
+  padding: 20px;
+}
+
+.m-b-5 {
+  margin-bottom: 5px;
+}
+
+.m-r-5 {
+  margin-right: 5px;
+}

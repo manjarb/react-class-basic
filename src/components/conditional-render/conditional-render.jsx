@@ -10,6 +10,7 @@ function ConditionalRender ({ isShow }) {
       
       <p>This is</p>
       {isShow && <MySecondComponent /> }
+     
     </div>
   )
 }
