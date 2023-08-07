@@ -1,17 +1,12 @@
 import logo from "./logo.svg";
 import "./App.css";
-import MyFirstComponent from "./components/my-first-component/my-first-component";
-import ConditionalRender from "./components/conditional-render/conditional-render";
-import { List } from "./components/render-lists/list";
-import { Button } from "./components/responding-event/button";
-import { PlayButton } from "./components/responding-event/play-button";
-import { Gallery } from "./components/state/gallery";
-import { ObjectForm } from "./components/state/object-form";
-import { Input } from "./components/react-input/react-input";
-import { ExampleApp01 } from "./example-apps/example-app-01";
-import Panel from "./components/share-state/Panel";
-import Accordian from './components/share-state/Accordian';
-import Todo from "./components/todo-list/todo";
+import TodoContextReducerComponent from "./components/fundamental/todo-list/todo-context-reducer-component";
+import RefComponent from "./components/advanced/referencing-value/ref-component";
+import StopWatch from "./components/advanced/referencing-value/stopwatch";
+import DomReferenceForm from "./components/advanced/referencing-value/dom-reference";
+import BasicEffectComponent from "./components/advanced/synchronizing-effect/basic-effect-component";
+import { NoNeedEffectComponent } from "./components/advanced/synchronizing-effect/no-need-effect-component";
+import CustomHookSample from "./components/advanced/custom-hooks/custom-hook-sample";
 
 
 function App() {
@@ -26,7 +21,16 @@ function App() {
       {/* <Input /> */}
       {/* <ExampleApp01 /> */}
       {/* <Accordian /> */}
-      <Todo />
+      {/* <Todo /> */}
+      {/* <TodoReducer /> */}
+      {/* <LevelOneComponent /> */}
+      {/* <TodoContextReducerComponent /> */}
+      {/* <RefComponent /> */}
+      {/* <StopWatch /> */}
+      {/* <DomReferenceForm /> */}
+      {/* <BasicEffectComponent /> */}
+      {/* <NoNeedEffectComponent /> */}
+      <CustomHookSample />
     </div>
   );
 }
